@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+}
+
+.navbar{
+    top: 0;
+    background-color: #190133;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 3;
+    /* border-bottom: 2px solid #9f6bff; */
+
+}
+
+.logo{
+    margin-left: 180px;
+    height: 72px;
+    width: 160px;
+    background-image: url("log.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+    margin-right: 160px;
+    width: 70%;
+    height: 4.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 18px;
+}
+.container li{
+    list-style: none;
+}
+li a{
+
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+}
+.navbar a:hover{
+    border-bottom: 2px solid #9f6bff;
+}
+.item{
+    height: 100%;
+    width: 100%;
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+}
+
+/* for hero element  */
+.hero{
+    margin-top: 80px;
+    width: auto;
+    height: auto;
+    background-color: #190133;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+.textarea{
+    height: 48.53px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+    flex-direction: column;
+
+}
+.textarea h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 49px;
+    color: white;
+    margin-top: 25px;
+    
+}
+.core-team h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    margin-top: 60px;
+    color: white;
+    margin-bottom: 40px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px; */
+
+}
+.box{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    background-color: #190133;
+    border: 3px solid #9f6bff;
+    border-radius: 8px;
+    margin: 65px 15px 0px 15px;
+    
+
+    
+}
+
+.pic{
+    /* background-image: url("1.jpg"); */
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-size: cover;
+    padding-bottom: 60px;
+    position: relative;
+    
+
+}
+
+.pic img{
+    background-image: url("1.jpg");
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-size: cover;
+    z-index: -1;
+    
+
+}
+
+.item h4{
+    font-size: 25px;
+    margin-top: 50px;
+
+}
+.item p{
+
+    font-size: 22px;
+    padding-top: 15px;
+}
+.icon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* visibility: hidden; */
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0%;
+
+}
+
+
+.icon a{
+    width: 25%;
+    height: 25%;
+    position: relative;
+    bottom: 150px;
+    /* opacity: 0; */
+}
+.icon:hover{
+    opacity: 75%;
+    transition: 0.3s;
+}
+
+
+/* for Electronics and Programming Team */
+.text{
+    height: 80px;
+    width: 1000px;
+    border-top: 2px dashed #9f6bff;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.text p{
+    margin-top: 10px;
+    justify-content: center;
+    color: white;
+    font-size: calc(18px + 1vw);
+    font-weight: 900;
+
+
+}
+/* test */
+.image-container {
+    position: relative;
+    display: inline-block; /* Or use other display styles depending on your layout */
+  }
+  
+  .image-container a {
+    position: absolute;
+    display: block;
+    width: 50%; /* Adjust the width to cover the desired portion of the image */
+    height: 100%; /* Cover the full height of the image */
+    top: 0;
+    z-index: 1; /* Ensure the anchor tags are above the image */
+  }
+  
+
+
+
+
+
+
+
+  /* footer desin */
+
+  .foot{
+    background-color: black;
+    width: 100%;
+    height: 455px;
+    padding: 40px 30px;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+  }
+  .foot-heading{
+    width: 100%;
+    height: 50px;
+    color: #9f6bff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 950;
+    /* padding-bottom: 30px; */
+    margin-bottom: 25px;
+  }
+.foot-logo{
+    height: 90px;
+    width: 180px;
+    background-image: url("log.png");
+    background-size: cover;
+}
+.foot-content{
+    width: 75%;
+    height: 90%;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    color: white;
+}
+.logo-item p{
+    color: white;
+    margin-top: 35px;
+    text-align: right;
+    height: 40px;
+    width: 165px;
+}
+.foot-item{
+    text-align: center;
+    font-size: 12px;
+}
+.foot-item ul{
+    padding: 0px;
+}
+.foot-item li{
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    font-size: 18px;
+    margin-top: 25px;
+    width: 144px;
+
+}
+.foot-item li a:hover{
+    transition: 0.4s;
+    color: green;
+}
+.myclass{
+    color: brown;
+}
